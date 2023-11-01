@@ -1,5 +1,5 @@
 <mat-toolbar class="max-w-7x1 mx-auto border-x justify-between">
-  <a routerLink="home">Code with Sloba store</a>
+  <a routerLink="home"><i-feather name="anchor" style="margin-right: 15px; padding-top: 3px;"></i-feather>Keliza Store</a>
   <button mat-icon-button [matMenuTriggerFor]="menu">
     <mat-icon
       [matBadge]="itemsQuantity"
@@ -27,14 +27,14 @@
       <div class="pt-3 flex justify-between">
         <button
         (click)="onClearCart()"
-        class="bg-rose-600 text-white rounded-full w-9 h-9">
-          <mat-icon>remove_shopping_cart</mat-icon>
+        class="bg-rose-600 text-white rounded-full pt-1 w-12 h-12">
+        <i-feather name="trash-2"></i-feather>
         </button>
         <button
-          routeerLink="cart"
-          class="bg-green-600 text-white rounded-full w-9 h-9"
+          routerLink="cart"
+          class="bg-green-600 text-white rounded-full pt-1 w-12 h-12"
         >
-          <mat-icon>shopping_cart</mat-icon>
+        <i-feather name="check-circle"></i-feather>
         </button>
       </div>
     </div>

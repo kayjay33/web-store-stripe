@@ -26,6 +26,9 @@ import { CartComponent } from './pages/cart/cart.component';
 import { CartService } from './services/cart.service';
 import { StoreService } from './services/store.service';
 import { HttpClientModule } from '@angular/common/http';
+import { FeatherModule } from 'angular-feather';
+import { allIcons } from 'angular-feather/icons';
+
 
 @NgModule({
   declarations: [
@@ -54,7 +57,11 @@ import { HttpClientModule } from '@angular/common/http';
     MatBadgeModule,
     MatSnackBarModule,
     HttpClientModule,
+    FeatherModule.pick(allIcons)
 
+  ],
+  exports: [
+    FeatherModule,
   ],
   providers: [CartService, StoreService],
   bootstrap: [AppComponent]
