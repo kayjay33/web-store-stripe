@@ -4,21 +4,14 @@
 
 ## Styling things to fix:
 
-- Fix buttons in checkout modal (improve icons & button styling)
 - Make categories blade on the left smaller (only one selection but takes up the whole screen)
-- Fix text on the top left
-- Make price text pop a little more on each card
-- Fix continue shopping and proceed to checkout buttons on checkout page
-- Fix text when the cart is empty
-- Make category names under images pop a bit more
+- Make first letter of categories capitalized
 
 
 ## Features to add:
 
 - Add searchbar above sorting bar
 - Add help button to the top
-- Add Logo to the tab header (currently the default angular logo)
-
 
 
 ## Reference pages to use
