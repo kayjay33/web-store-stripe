@@ -1,6 +1,6 @@
 ### Upgrades to make to the app
 
-
+*Eliza's going to work on designing the UI. Once that's done we can start implementing it*
 
 ## Styling things to fix:
 
