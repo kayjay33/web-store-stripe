@@ -10,6 +10,15 @@
         <button (click)="onSortUpdated('asc')" mat-menu-item>asc</button>
       </mat-menu>
     </div>
+    <div>
+      <!-- <mat-list-option *ngFor="let category of categories" [value]="category">
+        <button (click)="onShowCategory(category)">{{category}}</button>
+      </mat-list-option> -->
+      <button mat-button [mat-menu-trigger-for]="categoryMenu">Categories</button>
+      <mat-menu #categoryMenu="matMenu">
+        <button (click)="onShowCategory(category)" *ngFor="let category of categories" mat-menu-item>{{category}}</button>
+      </mat-menu>
+    </div>
     <div class="flex items-center">
       <div>
         <button mat-button [matMenuTriggerFor]="menu">

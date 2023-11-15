@@ -15,6 +15,9 @@ export class FiltersComponent implements OnInit, OnDestroy {
   constructor(private storeService: StoreService) { }
 
   ngOnInit(): void {
+    // qx* This component is not being used currently
+
+
     this.categoriesSubscription = this.storeService.getAllCategories()
     .subscribe((response) => {
       console.log(response)
