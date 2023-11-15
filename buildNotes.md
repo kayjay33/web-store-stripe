@@ -4,7 +4,8 @@
 
 ## Styling things to fix:
 
-- Make categories blade on the left smaller (only one selection but takes up the whole screen)
+- Create an "all" option in the category dropdown to refetch all the products
+- Make the "category" text change to "jewelry" for example when the user selects the jewelry category
 - Make first letter of categories capitalized
 
 
