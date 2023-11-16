@@ -5,7 +5,6 @@
 ## Styling things to fix:
 
 - Create an "all" option in the category dropdown to refetch all the products
-- Make the "category" text change to "jewelry" for example when the user selects the jewelry category
 - Make first letter of categories capitalized
 
 

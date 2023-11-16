@@ -14,7 +14,7 @@
       <!-- <mat-list-option *ngFor="let category of categories" [value]="category">
         <button (click)="onShowCategory(category)">{{category}}</button>
       </mat-list-option> -->
-      <button mat-button [mat-menu-trigger-for]="categoryMenu">Categories</button>
+      <button mat-button [mat-menu-trigger-for]="categoryMenu">{{currentCategory}}</button>
       <mat-menu #categoryMenu="matMenu">
         <button (click)="onShowCategory(category)" *ngFor="let category of categories" mat-menu-item>{{category}}</button>
       </mat-menu>

@@ -23,6 +23,7 @@ export class ProductsHeaderComponent implements OnInit {
   products: Array<Product> | undefined;
   categoriesSubscription: Subscription | undefined;
   categories: Array<string> | undefined;
+  currentCategory: string = 'Categories'
 
 
 
@@ -60,6 +61,7 @@ export class ProductsHeaderComponent implements OnInit {
   }
 
   onShowCategory(category: string): void {
+    this.currentCategory = category
     this.showCategory.emit(category)
   }
 
