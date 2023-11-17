@@ -5,6 +5,7 @@
 ## Styling things to fix:
 
 - Create an "all" option in the category dropdown to refetch all the products
+  - I think we can do this by creating an "all products" option in the categories list
 - Make first letter of categories capitalized
 
 
