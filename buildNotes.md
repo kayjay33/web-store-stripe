@@ -2,6 +2,8 @@
 
 *Eliza's going to work on designing the UI. Once that's done we can start implementing it*
 
+**I need to figure out a hosting platform so that we can host this and other sites
+
 ## Styling things to fix:
 
 - Create an "all" option in the category dropdown to refetch all the products
