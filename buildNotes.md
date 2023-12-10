@@ -15,6 +15,7 @@
 
 - Add searchbar above sorting bar
 - Add help button to the top
+- Need to make sure all API keys are protected
 
 
 ## Reference pages to use
