@@ -2,6 +2,8 @@
 
 *Eliza's going to work on designing the UI. Once that's done we can start implementing it*
 
+*The above is in progress now - need to implement this once complete*
+
 **I need to figure out a hosting platform so that we can host this and other sites
 
 ## Styling things to fix:
