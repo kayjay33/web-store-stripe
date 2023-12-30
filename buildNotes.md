@@ -1,9 +1,5 @@
 ### Upgrades to make to the app
 
-*Eliza's going to work on designing the UI. Once that's done we can start implementing it*
-
-*The above is in progress now - need to implement this once complete*
-
 **I need to figure out a hosting platform so that we can host this and other sites
 
 ## Styling things to fix:
@@ -11,6 +7,15 @@
 - Create an "all" option in the category dropdown to refetch all the products
   - I think we can do this by creating an "all products" option in the categories list
 - Make first letter of categories capitalized
+
+
+**Eliza Changes**
+
+- Need to change the colors and add a gradient to the home page
+- Need to change the orientation of the categories
+- Need to add an option to "view" an item when clicked, then have a "items you may also like"
+- Need to change the checkout styling to the "price tag" look that Eliza made
+- Need to add the new logo
 
 
 ## Features to add:
