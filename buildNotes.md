@@ -1,6 +1,7 @@
 ### Upgrades to make to the app
 
 **I need to figure out a hosting platform so that we can host this and other sites
+  - Would AWS work for this? Heroku? What's the best hosting platform nowadays?
 
 ## Styling things to fix:
 
