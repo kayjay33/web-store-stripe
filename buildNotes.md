@@ -38,3 +38,13 @@
 - Angular startup script: ng serve
 - Stripe checkout: enter email, enter 4242424242 for credit card
 - To see payments in stripe developer console: https://dashboard.stripe.com/test/payments
+
+
+
+
+
+## Other Project Ideas:
+
+- Make an electoral calculator for the 2024 election and past elections. There should be different
+demo graphics the user can toggle like party affiliation, ideology, male/female, etc. 
+- This will show what would happen if X candidate got Y percent of a given demo.
