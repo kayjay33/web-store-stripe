@@ -48,3 +48,4 @@
 - Make an electoral calculator for the 2024 election and past elections. There should be different
 demo graphics the user can toggle like party affiliation, ideology, male/female, etc. 
 - This will show what would happen if X candidate got Y percent of a given demo.
+- Might be able to add an election percentage calculator to this as well
